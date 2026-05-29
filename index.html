@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculaora de Juros</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <div class="tudo">
+
+        <div class="bloco1">
+
+            <form action="">
+
+                <label for="">Capital: </label><br>
+                <input type="number" name="Capital" id="Capital"><br>
+
+                <br>
+
+                <label for="">Taxa: </label><br>
+                <input type="number" name="Taxa" id="Taxa"><br>
+
+                <br>
+
+                <label for="">Tempo: (em meses) </label><br>
+                <input type="number" name="Tempo" id="Tempo"><br><br>
+
+                <br>
+
+                <h3>Selecione o tipo de juros: </h3><br>
+
+                <select name="Qual o tipo de juros?" id="tipoJuros">
+                    <option value="" selected disabled>--- Selecione o tipo de juros: ---</option>
+                    <option value="1">Juros Simples</option>
+                    <option value="2">Juros Composto</option>
+                </select>
+
+                <br> <br><button id="bo1" type="button" onclick="calcular()">Calcular</button>
+
+                <button id="bo2" onclick="limpar()">Novo Cálculo</button>
+
+        </div>
+    </div>
+
+    <h1>Calculadora de Juros</h1>
+
+    <a href=""></a>
+
+
+    <div class="card">
+        <h1 id="cal">Calculadora de Juros</h1>
+
+        <center>
+            <p id="texto">Simule Seus investimentos ou empréstimos de forma rápida com nossa calculadora de juros.</p>
+            <br><br><br>
+        </center>
+
+        <a href="./pagina.html"><button type="button" id="botao">Saiba Mais Sobre os Juros ➡️</button></a>
+
+
+    </div>
+
+
+    </form>
+
+
+</body>
+
+</html>

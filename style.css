@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(150deg, rgb(0, 0, 0) 40%, rgb(30, 1, 109));
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+label {
+
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+
+label:hover {
+    scale: 1.1;
+
+    transition-delay: 1ms;
+    transition-duration: 300ms;
+}
+
+input {
+
+    padding: 4px;
+    border: 2px solid;
+    font-size: 15px;
+    width: 250px;
+    transition: 0.3s;
+    border: 2px solid rgb(30, 1, 109);
+    border-radius: 10px;
+    background: linear-gradient(10deg, rgb(0, 0, 0) 40%, rgb(30, 1, 109));
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+input:hover {
+    scale: 1.1;
+
+    transition-delay: 1ms;
+    transition-duration: 300ms;
+}
+
+
+input:hover {
+    box-shadow: 0 0 10x indigo;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+h3:hover {
+    scale: 1.1;
+
+    transition-delay: 1ms;
+    transition-duration: 300ms;
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+
+.bloco1 {
+    background: linear-gradient(310deg, rgb(0, 0, 0) 40%, rgb(30, 1, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    width: 300px;
+    height: 450px;
+
+
+    position: relative;
+    bottom: 50px;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 280px;
+}
+
+
+h1:hover {
+    scale: 1.1;
+
+
+    transition-delay: 1ms;
+    transition-duration: 300ms;
+}
+
+button {
+    position: relative;
+    left: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(30, 1, 109);
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+button:hover {
+    box-shadow: 0 0 10x rgb(30, 1, 109);
+}
+
+
+
+button:hover {
+    scale: 1.1;
+
+    transition-delay: 1ms;
+    transition-duration: 300ms;
+}
+
+
+
+select {
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    border: 2px solid rgb(30, 1, 109);
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+select:hover {
+    scale: 1.1;
+
+    transition-delay: 1ms;
+    transition-duration: 300ms;
+}
+
+
+select:hover {
+    box-shadow: 0 0 10x indigo;
+}
+
+.card {
+    width: 320px;
+    height: 200px;
+    background: linear-gradient(300deg, rgb(1, 1, 77), black);
+    border-radius: 20px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 250px;
+    left: 150px;
+
+}
+
+
+p {
+    font-size: 15px;
+    color: white;
+}
+
+#botao {
+    width: 200px;
+    height: 50px;
+
+    position: relative;
+    left: 50px;
+
+}
+
+#cal {
+    position: relative;
+    top: 5px;
+}
+
+#texto {
+    position: relative;
+    top: 15px;
+}
