@@ -104,6 +104,21 @@ button:hover {
 
 
 
+@media(min-width:400px) and (max-width: 600px) {
+
+    body {
+        height: 100vh;
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+    }    
+    .bloco3{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 
 
 
